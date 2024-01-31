@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, session
 #this is to import the __init__.py file
 from flask_app import app 
 #controller name (Doesn't need the .py at the end)
-from flask_app.controllers import controller_name_here
+from flask_app.controllers import user_controller
 
 
 
