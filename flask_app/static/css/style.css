@@ -1,7 +1,16 @@
-*{
-    background-image: url('../images/background6.png'); /* Path to your image */
+.background{
+    background-image: url('../images/background9.png'); /* Path to your image */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
     background-attachment: fixed;
+}
+
+.c-item{
+    height: 10%;
+}
+
+.c-image{
+    height: 100%;
+    object-fit: cover;
 }
